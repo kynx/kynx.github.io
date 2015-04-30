@@ -1,3 +1,6 @@
+.container {
+  clear: both;
+}
 @media (min-width: 38em) {
   .content {
     font-size: 15px;

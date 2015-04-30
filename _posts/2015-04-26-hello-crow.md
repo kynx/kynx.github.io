@@ -13,14 +13,14 @@ OK, so the colours are a bit stark. But then again, suitably crow-like. And you 
 
 ## What's it all about?
 
-Over the last year I've been getting the BI side up-and-running. Previously we had a fairly expensive [MicroTragedy](http://www.microstrategy.com/) around reporting. This time round we had a very limited budget, but at least I'd read up on data warehousing and thought I knew the direction we should take.
+Over the last year I've been getting the BI side of [Claritum](http://www.claritum.com) up-and-running. Previously we had a fairly expensive [MicroTragedy](http://www.microstrategy.com/) around reporting. This time round we had a very limited budget, but at least I'd read up on data warehousing and thought I knew the direction we should take.
 
-We settled on [Pentaho](http://www.pentaho.com/). It's open source and promises all the tools we would need in one place. 
+We settled on [Pentaho](http://www.pentaho.com/). It's open source and promised all the tools we would need in one place. 
 
-Our one key requirement that Pentaho doesn't offer out the box is multi-tenancy - the ability to host multiple client's data in a single instance, so they can see reports of their own data, but not data from other tenants. There isn't a whole lot out there about how to get that running. Hopefully I'll be able to add to the general knowledge.
+Our one key requirement that Pentaho doesn't offer out the box is multi-tenancy - the ability to host multiple client's data in a single instance, so they can see reports of their own data, but not data from other tenants. There isn't a whole lot out there about how to do that, but we got there eventually. Hopefully I'll be able to add to the general knowledge.
 
 So I'm going to be writing about that to start with. If it goes well I'll let rip with some other obsessions.
 
 ## You need help...
 
-Indeedy. Get that thing out your pocket and point it over here. If the layout looks funny, let me know in the comments below.
+Indeedy. Get that thing out your pocket and point it over here. If the layout looks funny on your device, let me know in the comments below.

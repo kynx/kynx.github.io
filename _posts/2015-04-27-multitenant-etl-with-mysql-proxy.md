@@ -1,7 +1,8 @@
 ---
 layout: post
 title: Multi-tenant ETL with MySQL Proxy
-tags: ETL Datawarehouse Pentaho Multi-tenant MySQL
+description: Techniques for creating multi-tenant ETL solutions using Pentaho PDI and MySQL Proxy
+tags: etl pentaho multi-tenant mysql
 comments: true
 ---
 
