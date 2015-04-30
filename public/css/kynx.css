@@ -23,3 +23,22 @@
 .keyline {
 	border : 1px solid black;
 }
+div.gist-data.gist-syntax {
+  max-width : 28rem;
+  max-height : 200px;
+  overflow : scroll;
+}
+@media (min-width: 38em) {
+  div.gist-data.gist-syntax {
+    max-width : 32rem;
+    max-height : 300px;
+    overflow : scroll;
+  }
+}
+@media (min-width: 56em) {
+  div.gist-data.gist-syntax {
+    max-width : 38rem;
+    max-height : 400px;
+    overflow : scroll;
+  }
+}

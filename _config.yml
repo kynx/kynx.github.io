@@ -12,12 +12,23 @@ url:                 http://kynx.github.io
 logo:                /public/images/crow.jpg
 baseurl:             ''
 paginate:            5
-comments:            true
-excerpt_separator:   <!--more-->
+timezone:            Europe/London
+
+defaults:
+  -
+    scope            :
+      path              : ""
+      type              : "posts"
+    values           :
+      layout            : "post"
+      comments          : true
+      excerpt_separator : <!--more-->
+    
+
 
 # About/contact
 author:
-  name:              Matt Kynaston
+  name:              "Matt Kynaston"
   url:               http://github.com/kynx
   email:             matt@kynx.org
 
