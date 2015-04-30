@@ -1,0 +1,25 @@
+# Permalinks
+#
+# Use of `relative_permalinks` ensures post links from the index work properly.
+permalink:           pretty
+relative_permalinks: true
+
+# Setup
+title:               Kynx
+tagline:             'Corvid cogitations on code'
+description:         'A partial record of my unsteady flight through the thin airs of open source business intelligence, from ETL and database hackery to <a hef="http://www.pentaho.com">Pentaho</a> customisations.'
+url:                 http://kynx.github.io
+logo:                /public/images/crow.jpg
+baseurl:             ''
+paginate:            5
+comments:            true
+excerpt_separator:   <!--more-->
+
+# About/contact
+author:
+  name:              Matt Kynaston
+  url:               http://github.com/kynx
+  email:             matt@kynx.org
+
+# Custom vars
+#version:             1.0.0

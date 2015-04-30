@@ -1,0 +1,25 @@
+@media (min-width: 38em) {
+  .content {
+    font-size: 15px;
+  }
+}
+.masthead-title img {
+	float : left;
+	position : relative;
+	top : -15px;
+	margin-right : 8px;
+}
+.sidebar-item .license {
+  font-size : smaller;
+}
+.left-image {
+	float : left;
+	margin-right : 10px;
+}
+.right-image {
+	float : right;
+	margin-left : 10px;
+}
+.keyline {
+	border : 1px solid black;
+}
