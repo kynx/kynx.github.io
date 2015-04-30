@@ -3,7 +3,6 @@ layout: post
 title: Multi-tenant ETL with MySQL Proxy
 description: Techniques for creating multi-tenant ETL solutions using Pentaho PDI and MySQL Proxy
 tags: etl pentaho multi-tenant mysql
-comments: true
 ---
 
 People can mean a number of different things when they say "multi-tenancy". Pentaho have a (rather low quality) [presentation](https://www.youtube.com/watch?v=sDaDDXcV79E) of four different

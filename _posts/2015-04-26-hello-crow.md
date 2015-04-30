@@ -4,7 +4,6 @@ title: Hello Crow
 ---
 
 So here it is, a blog by me. Over the years I've been coding (um... many, too many years) I've relied heavily on the gems wonderful people have found the time to post. All along I've meant to start one myself. Hell, the world needs my genius. Maybe I'm just shy.
-
 <!--more-->
 
 But today I decided to get to grips with this [Jekyll](http://jekyllrb.com/) thing that github.io uses for blogging and grabbed the [simplest theme](https://github.com/poole/lanyon) I could find. And here we are, up and running in minutes.

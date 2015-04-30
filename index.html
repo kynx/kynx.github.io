@@ -13,8 +13,26 @@ title: Home
     </h1>
 
     <span class="post-date">{{ post.date | date_to_string }}</span>
-
-    {{ post.excerpt }}
+    {% capture post_excerpt %}
+      {% if post.content contains '<!--more-->' %}
+          {{ post.content | split:'<!--more-->' | first }}
+      {% else %}
+        {{ post.excerpt }}
+      {% endif %}
+    {% endcapture %}
+    
+    {{ post_excerpt }}
+    
+    {% capture post_words %}
+      {{ post.content | number_of_words }}
+    {% endcapture %}
+    {% capture excerpt_words %}
+      {{ post_excerpt | number_of_words }}
+    {% endcapture %}
+    {% if excerpt_words != post_words %}
+       <p class="gimme-more"><a href="{{ post.url }}" role="button">...more <i class="fa fa-arrow-circle-right"></i></a>
+      </p>
+    {% endif %}
   </div>
   {% endfor %}
 </div>

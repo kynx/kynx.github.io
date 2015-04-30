@@ -26,6 +26,9 @@
 .keyline {
 	border : 1px solid black;
 }
+.gimme-more {
+  text-align : right;
+}
 div.gist-data.gist-syntax {
   max-width : 28rem;
   max-height : 200px;
