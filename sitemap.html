@@ -1,0 +1,38 @@
+---
+layout: default
+title: Site map
+---
+<div class="page">
+  <h1 class="page-title">{{ page.title }}</h1>
+  Spider food.
+  
+  <h2>Pages</h2>
+  <div class="sitemap">
+  {% assign pages_list = site.pages | sort:"url" %}
+  {% for node in pages_list %}
+    {% if node.layout == "page" %}
+        <a href="{{ node.url }}">
+          {% if node.title %}
+            {{ node.title }}
+          {% else %}
+            {{ node.url }}
+          {% endif %}
+        </a><br>
+    {% endif %}
+  {% endfor %}
+  </div>
+  
+  <h2>Posts</h2>
+  <div class="sitemap">
+    {% assign pages_list = site.posts | sort:"title" %}
+    {% for node in pages_list %}
+        <a href="{{ node.url }}">
+          {% if node.title %}
+            {{ node.title }}
+          {% else %}
+            {{ node.url }}
+          {% endif %}
+        </a><br>
+    {% endfor %}
+  </div>  
+</div>
