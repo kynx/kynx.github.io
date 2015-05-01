@@ -12,7 +12,7 @@ url:                 http://kynx.github.io
 logo:                /public/images/crow.jpg
 baseurl:             ''
 paginate:            5
-timezone:            Europe/London
+timezone:            'Europe/London'
 
 defaults:
   -
@@ -22,6 +22,7 @@ defaults:
     values           :
       layout            : "post"
       comments          : true
+      license           : true
       excerpt_separator : <!--more-->
     
 

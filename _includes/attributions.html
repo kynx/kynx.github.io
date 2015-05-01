@@ -1,0 +1,22 @@
+{% if page.attributions %}
+<div class="attributions">
+  <h2>Attributions</h2>
+  <ul class="attributions">
+    {% for attr in page.attributions %}
+    <li>
+      <a href="{{ attr.url }}">{{ attr.title }}</a>
+      {% if attr.author %} by {{ attr.author}}{% endif %}
+      {% if attr.license %} / 
+        {% if attr.license_url %}
+          <a href="{{ attr.license_url }}">{{ attr.license }}</a>
+        {% else %}
+          {{ attr.license }}
+        {% endif %}
+      {% endif %}
+      {% if attr.modification %}
+        / {{ attr.modification }}
+      {% endif %}
+    {% endfor %}
+  </ul>
+</attributions>
+{% endif %}

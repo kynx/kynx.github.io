@@ -3,6 +3,14 @@ layout: post
 title: Multi-tenant ETL with MySQL Proxy
 description: Techniques for creating multi-tenant ETL solutions using Pentaho PDI and MySQL Proxy
 tags: etl pentaho multi-tenant mysql
+attributions:  
+  - title: "Dolphin at the switchboard image"
+    author: Giuseppe Maxia
+    url: http://cdn.oreillystatic.com/en/assets/1/event/2/MySQL%20Proxy_%20The%20Complete%20Tutorial%20_full%20day_%20Presentation.pdf
+    license:  "CC BY-SA"
+    license_url: http://creativecommons.org/licenses/by-sa/3.0/
+    
+  
 ---
 
 People can mean a number of different things when they say "multi-tenancy". Pentaho have a (rather low quality) [presentation](https://www.youtube.com/watch?v=sDaDDXcV79E) of four different
@@ -152,3 +160,4 @@ If I haven't scared you off by now, here's what I've learned from pushing this p
 * The ETL runs for each tenant cannot run in parallel or you will get duplicate IDs
 
 For us, the last point is probably the biggest drawback. It's not a killer yet, but as we scale I anticipate it becoming more of an issue. Over the last year I've learned a few ETL tricks that would make populating the master in a more conventional, PDI-only way less of a maintenance burden. I'll try and write those up in a future post.
+

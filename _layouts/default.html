@@ -24,10 +24,12 @@
       <div class="container content">
         {{ content }}
       </div>
+      
+      {% include footer.html %}
     </div>
 
     <label for="sidebar-checkbox" class="sidebar-toggle" title="Toggle menu"></label>
-
+    
     <script>
       (function(document) {
         var toggle = document.querySelector('.sidebar-toggle');

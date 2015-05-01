@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Hello Crow
+license: false
 ---
 
 So here it is, a blog by me. Over the years I've been coding (um... many, too many years) I've relied heavily on the gems wonderful people have found the time to post. All along I've meant to start one myself. Hell, the world needs my genius. Maybe I'm just shy.
@@ -17,6 +18,8 @@ Over the last year I've been getting the BI side of [Claritum](http://www.clarit
 We settled on [Pentaho](http://www.pentaho.com/). It's open source and promised all the tools we would need in one place. 
 
 Our one key requirement that Pentaho doesn't offer out the box is multi-tenancy - the ability to host multiple client's data in a single instance, so they can see reports of their own data, but not data from other tenants. There isn't a whole lot out there about how to do that, but we got there eventually. Hopefully I'll be able to add to the general knowledge.
+
+
 
 So I'm going to be writing about that to start with. If it goes well I'll let rip with some other obsessions.
 

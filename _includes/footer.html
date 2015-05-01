@@ -1,0 +1,24 @@
+<div class="container footer">
+  <ul class="links">
+  {% assign pages_list = site.pages | sort:"url" %}
+  {% for node in pages_list %}
+    {% if node.title != null %}
+      {% if node.layout == "page" %}
+        <li><a href="{{ node.url }}">{{ node.title | downcase }}</a></li>
+      {% endif %}
+    {% endif %}
+  {% endfor %}
+  <li><a href="sitemap">sitemap</a></li>
+  <li>design via <a href="https://github.com/poole/lanyon">lanyon</a></li>
+  </ul>
+  
+  {% if page.license %}
+  <p class="license">
+    <span class="title" xmlns:dct="http://purl.org/dc/terms/" property="dct:title">{{ page.title }}</span> by <a xmlns:cc="http://creativecommons.org/ns#" href="{{ site.url }}{{ page.url }}" property="cc:attributionName" rel="cc:attributionURL">{{ site.author.name }}</a> is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International License</a>.<br />
+    <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-sa/4.0/88x31.png" /></a>
+  </p>
+  <p class="license print">
+    @ Copyright {{ site.time | date : "%Y" }} by {{ site.author.name}}. <span class="title">{{ page.title }}</span> is licensed under the Creative Commons Attribution-ShareAlike 4.0 International License. To view a copy of this license, visit http://creativecommons.org/licenses/by-sa/4.0/.
+  </p>
+  {% endif %}
+</div>

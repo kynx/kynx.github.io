@@ -8,11 +8,11 @@ I'm lead developer for [Claritum](http://www.claritum.com), a SaaS procurement p
 
 ## Geeky me
 
-I'm weakly typed. I do PHP, Python, JS, Bash - anything truthy. But I'll do Java too, if you make me.
+I'm weakly typed. I do PHP, Python, Node, Bash - anything truthy. But I'll do Java too, if you make me.
 
-I'm a data nerd. That used to mean Postgres, but I'm rusty. These days it's a lot of MySQL. NoSQL is hype, but I play with graphs for fun.
+I'm a data nerd. That used to mean Postgres, but I'm rusty. These days it's a lot of old MySQL. NoSQL is hype, but I play with graphs for fun.
 
-I guess I'm a devop, too, if that means being a cloudy sysadmin without the pay.
+I guess I'm a devop too, if that means being a cloudy sysadmin without the pay.
 
 My laptop's a Mac, my servers are RHEL. My smartphone is 7 years old.
 

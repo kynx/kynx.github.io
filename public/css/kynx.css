@@ -11,10 +11,7 @@
 	position : relative;
 	top : -15px;
 	margin-right : 8px;
-}
-.sidebar-item .license {
-  font-size : smaller;
-}
+  }
 .left-image {
 	float : left;
 	margin-right : 10px;
@@ -46,5 +43,68 @@ div.gist-data.gist-syntax {
     max-width : 38rem;
     max-height : 400px;
     overflow : scroll;
+  }
+}
+div.attributions {
+  border-top : 1px solid #eee;
+  margin-bottom : 1em;
+}
+.attributions, .attributions h2 {
+  font-size : 90%;
+}
+.attributions ul {
+  list-style : none;
+  padding : 0;
+  margin : 0;
+}
+.footer {
+  font-family: "PT Sans", Helvetica, Arial, sans-serif;
+  font-size : small;
+  color : #c0c0c0;
+  text-align : center;
+}
+
+.footer ul.links {
+  list-style : none;
+  padding : 0;
+  margin : 0 auto 1em;
+  line-height : 0;
+}
+.footer li {
+  display : inline;
+  padding : 0 0.5em;
+  border-left : 1px solid;
+}
+.footer ul li:first-child {
+  border-left : 0;
+}
+.footer .license {
+  clear : both;
+  margin : 0 10%;
+}
+.footer .license .title {
+  font-style : italic;
+}
+.footer .license img {
+  display: inline;
+}
+.footer .print {
+  display : none;
+}
+.footer a, footer a:active, footer a:visited {
+  color : #c0c0c0;
+}
+
+@media print {
+  .related, .footer ul.links, .footer .license {
+    display : none;
+  }
+  .footer .print {
+    display : block;
+  }
+  div.gist-data.gist-syntax {
+    max-width : none;
+    max-height : none;
+    overflow : visible;
   }
 }
