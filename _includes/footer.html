@@ -14,7 +14,7 @@
   
   {% if page.license %}
   <p class="license">
-    <span class="title" xmlns:dct="http://purl.org/dc/terms/" property="dct:title">{{ page.title }}</span> by <a xmlns:cc="http://creativecommons.org/ns#" href="{{ site.url }}{{ page.url }}" property="cc:attributionName" rel="cc:attributionURL">{{ site.author.name }}</a> is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International License</a>.<br />
+    <a class="title" href="{{ site.url }}{{ page.url }}" xmlns:dct="http://purl.org/dc/terms/" xmlns:cc="http://creativecommons.org/ns#" property="dct:title" rel="cc:attributionURL">{{ page.title }}</a> by <span xmlns:cc="http://creativecommons.org/ns#" property="cc:attributionName">{{ site.author.name }}</span> is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International License</a>.<br />
     <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-sa/4.0/88x31.png" /></a>
   </p>
   <p class="license print">

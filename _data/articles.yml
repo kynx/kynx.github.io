@@ -1,0 +1,8 @@
+- title: Dimensional Modelling Techniques
+  url: http://www.kimballgroup.com/data-warehouse-business-intelligence-resources/kimball-techniques/dimensional-modeling-techniques/
+  description: The Datawarehouse Toolkit was my bible when starting out. This extract gives you all the key points from the book, online or in PDF.
+
+- title: Kimball Design Tips
+  url: http://www.kimballgroup.com/category/design-tips/
+  description: Got a data warehouse design problem? The chances are the godfather of dimensional modelling has had it too. Invaluable stuff.
+

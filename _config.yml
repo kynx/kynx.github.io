@@ -9,7 +9,7 @@ title:               Kynx
 tagline:             'Corvoid cogitations on code'
 description:         'A partial record of my unsteady flight through the thin airs of open source business intelligence, from ETL and database hackery to <a hef="http://www.pentaho.com">Pentaho</a> customisations.'
 url:                 http://kynx.github.io
-logo:                /public/images/crow.jpg
+logo:                /public/images/crow.png
 baseurl:             ''
 paginate:            5
 timezone:            'Europe/London'

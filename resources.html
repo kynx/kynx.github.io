@@ -3,7 +3,7 @@ layout: page
 title: Resources
 ---
 
-Read more. If you think something is missing, use the comments section at the bottom.ˆ
+Read more. If you think something is missing, use the comments section at the bottom.
 
 <h2>Blogs</h2>
 <ul class="links">
@@ -12,6 +12,15 @@ Read more. If you think something is missing, use the comments section at the bo
     <a href="{{ blog.url }}">{{ blog.title }}</a><br>
     {{ blog.description }}
   </li>
+  {% endfor %}
+</ul>
+
+<h2>Articles</h2>
+<ul class="links">
+  {% for article in site.data.articles %}
+  <li>
+    <a href="{{ article.url }}">{{ article.title}}</a><br>
+    {{ article.description }}
   {% endfor %}
 </ul>
 

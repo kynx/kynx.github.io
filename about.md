@@ -10,7 +10,7 @@ I'm lead developer for [Claritum](http://www.claritum.com), a SaaS procurement p
 
 I'm weakly typed. I do PHP, Python, Node, Bash - anything truthy. But I'll do Java too, if you make me.
 
-I'm a data nerd. That used to mean Postgres, but I'm rusty. These days it's a lot of old MySQL. NoSQL is hype, but I play with graphs for fun.
+I'm a data nerd. That used to mean Postgres, but I'm rusty. These days it's a lot of old MySQL. NoSQL is hype, but I play with [graphs](http://tinkerpop.incubator.apache.org) for fun.
 
 I guess I'm a devop too, if that means being a cloudy sysadmin without the pay.
 
@@ -22,5 +22,5 @@ Enjoys sailing. My brother [writes about that](http://www.rogersrants.co.uk/), t
 
 ## What's all this about a crow?
 
-Oh, you know. Years back you decided you needed an avatar. You remembered a character from a comic strip some delinquent newspaper published in your Pacific North West youth. Apologies, 
-[Mr Millionaire](http://www.maakies.com), I nicked him.
+Oh, you know. Years back you decided you needed an avatar. You remembered a character from a comic strip some delinquent newspaper published in your Pacific North West youth. Thanks, 
+[Tony Millionaire](http://www.maakies.com), for letting me abuse him.
