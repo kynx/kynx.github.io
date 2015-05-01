@@ -33,5 +33,5 @@ author:
   url:               http://github.com/kynx
   email:             matt@kynx.org
 
-# Custom vars
-#version:             1.0.0
+gems:
+  - jekyll-sitemap
