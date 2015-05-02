@@ -23,4 +23,4 @@ Enjoys sailing. My brother [writes about that](http://www.rogersrants.co.uk/), t
 ## What's all this about a crow?
 
 Oh, you know. Years back you decided you needed an avatar. You remembered a character from a comic strip some delinquent newspaper published in your Pacific North West youth. Thanks, 
-[Tony Millionaire](http://www.maakies.com), for letting me abuse him.
+[Tony Millionaire](http://www.maakies.com), for letting me abuse your crow.
