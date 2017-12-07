@@ -4,7 +4,7 @@ title: Multi-tenant ETL with MySQL Proxy
 description: Techniques for creating multi-tenant ETL solutions using Pentaho PDI and MySQL Proxy
 tags: etl pentaho multi-tenant mysql
 attributions:  
-  - title: "Dolphin at the switchboard image"
+  - title: "'Dolphin at the switchboard' image"
     author: Giuseppe Maxia
     url: http://cdn.oreillystatic.com/en/assets/1/event/2/MySQL%20Proxy_%20The%20Complete%20Tutorial%20_full%20day_%20Presentation.pdf
     license:  "CC BY-SA"
@@ -61,6 +61,8 @@ If the existing ETL process could _simultaneously_ populate both the tenant and 
 
 
 ## The problem of surrogacy
+
+Initially I thought it would be simple: my transform would first do a [Dimension Lookup / Update](http://infocenter.pentaho.com/help/index.jsp?topic=%2Fpdi_user_guide%2Fconcept_pdi_usr_dimension_lookup_update.html) on the master database, then an Update on the tenant using the surrogate key obtained from the previous step. But it's not that simple: to keep things in sync you also nee
 
 I looked at a number of ways to achieve this simultaneous population of two data warehouses on the DB side. These included:
 
